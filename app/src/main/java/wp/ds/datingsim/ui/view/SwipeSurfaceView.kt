@@ -7,6 +7,7 @@ import android.graphics.Color
 import android.graphics.Paint
 import android.graphics.drawable.BitmapDrawable
 import android.graphics.drawable.VectorDrawable
+import android.util.AttributeSet
 import android.util.Log
 import android.view.MotionEvent
 import android.view.SurfaceHolder
@@ -21,9 +22,9 @@ import kotlin.concurrent.Volatile
 import kotlin.math.sqrt
 
 
-class SwipeSurfaceView(
-    context: Context
-) : SurfaceView(context), SurfaceHolder.Callback, Runnable {
+class SwipeSurfaceView @JvmOverloads constructor(
+    context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = 0
+) : SurfaceView(context, attrs, defStyleAttr), SurfaceHolder.Callback, Runnable {
 
     private var bmp = getBitmapFromDrawable(context, R.drawable.ic_android_black_24dp)
 

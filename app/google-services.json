@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "515203719228",
+    "project_id": "datingsim-6ea8a",
+    "storage_bucket": "datingsim-6ea8a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:515203719228:android:1fb471c4b6aa16f96a2339",
+        "android_client_info": {
+          "package_name": "wp.ds.datingsim"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBs2W2I1VY1QSDlUrGtAWNBlw9V7m4kaYE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
