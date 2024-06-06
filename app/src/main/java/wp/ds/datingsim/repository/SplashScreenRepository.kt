@@ -5,6 +5,6 @@ import android.content.Context
 class SplashScreenRepository(context: Context) {
 
     suspend fun checkIsAuth(): Boolean{
-        return false
+        return true
     }
 }
